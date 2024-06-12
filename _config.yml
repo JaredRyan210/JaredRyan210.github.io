@@ -92,8 +92,8 @@ pagination:
 
 ### Phantom settings
 footer_text: '© 2024 Jared Ryan'
-google_analytics:
-admin_name: 'G-GLSFYWWV7R'
+google_analytics: G-D5Y64P168N
+admin_name: 
 enable_contact: false
 
 #### Phantom Navigation menu
