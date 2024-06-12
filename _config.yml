@@ -16,7 +16,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Jared Ryan"
 email: 'jaredr210@gmail.com'
-description: "Fresh out of college with a degree in computer science, I am passionate about building and optimizing software solutions. My goal is to join a forward-thinking company where I can apply my skills in coding, problem-solving, and continuous learning to drive technological advancements."
+#description: "Fresh out of college with a degree in computer science, I am passionate about building and optimizing software solutions. My goal is to join a forward-thinking company where I can apply my skills in coding, problem-solving, and continuous learning to drive technological advancements."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://JaredRyan210.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'JaredRyan210'
@@ -27,13 +27,11 @@ linkedin_username: 'jared-ryan-8529b7258'
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
-paginate: 10
-paginate_path: "/page:num/"
 
 pagination:
   
@@ -94,12 +92,12 @@ pagination:
 
 ### Phantom settings
 footer_text: '© 2024 Jared Ryan'
-admin_name: 'Jared Ryan'
+admin_name: ''
 enable_contact: false
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About Me' }
-  - {url: '/contact', text: 'Contact'}
+  - { url: '/about', text: 'About' }
+  - { url: '/contact', text: 'Contact'}

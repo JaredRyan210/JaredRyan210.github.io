@@ -13,15 +13,19 @@
           {% endif %}
 
           {% if site.description != '' or site.enable_contact == true %}
-          <p class="text-center">
-            {% if site.description != '' %}
-            {{site.description}}
-            {% endif %}
 
-            {% if site.enable_contact == true %}
+          <p class="text-center">
+            <!--{% if site.description != '' %}
+            {{site.description}}
+            {% endif %} -->
+            
+            I am a recent college graduate with a degree in computer science, I am passionate about building and optimizing software solutions. 
+            My goal is to join a forward-thinking company where I can apply my skills in coding, problem-solving, and continuous learning to drive technological advancements.
+
+            <!--{% if site.enable_contact == true %}
             {% include contact.html %}
             {% include contact-modal.html %}
-            {% endif %}
+            {% endif %} -->
           </p>
           {% endif %}
 
@@ -39,10 +43,13 @@
         </div>
 
       </div>
-
+      <h2 class="text-center">
+        Recent Projects
+      </h2>
       <a class="section-jump text-center" href="#portfolio">
         <i class="fa fa-angle-down fa-3x"></i>
       </a>
+      
 
     </div>
 
