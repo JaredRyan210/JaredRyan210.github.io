@@ -16,12 +16,12 @@
 # in the templates via {{ site.myvariable }}.
 title: "Jared Ryan"
 email: 'jaredr210@gmail.com'
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
+description: "Fresh out of college with a degree in computer science, I am passionate about building and optimizing software solutions. My goal is to join a forward-thinking company where I can apply my skills in coding, problem-solving, and continuous learning to drive technological advancements."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://JaredRyan210.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'JaredRyan210'
 linkedin_username: 'jared-ryan-8529b7258'
-medium_username: false
+
 
 # Build settings
 markdown: kramdown
@@ -95,10 +95,11 @@ pagination:
 ### Phantom settings
 footer_text: '© 2024 Jared Ryan'
 admin_name: 'Jared Ryan'
-enable_contact: false
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
+  - { url: '/contact', text: 'Contact'}
