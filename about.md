@@ -195,7 +195,7 @@ body {
 paginate: 10
 footer_text: '© 2018 Jami Gibbs'
 admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+google_analytics: "G-GLSFYWWV7R" # Update with your own tracking ID
 
 #### Phantom Navigation menu
 enable_nav: true
