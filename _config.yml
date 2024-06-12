@@ -95,11 +95,11 @@ pagination:
 ### Phantom settings
 footer_text: '© 2024 Jared Ryan'
 admin_name: 'Jared Ryan'
-enable_contact: true
+enable_contact: false
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
-  - { url: '/contact', text: 'Contact'}
+  - { url: '/about', text: 'About Me' }
+  - {url: '/contact', text: 'Contact'}
