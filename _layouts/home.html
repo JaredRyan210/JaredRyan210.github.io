@@ -16,23 +16,26 @@
 
             <div class="break"></div>
 
-            {% for post in paginator.posts %}
-              <div class="wow fadeIn">
-              {% if post.position == "left" %}
+            {% for post in site.posts %}
+	          {% if post.type != "hidden" %}
+              <div class="wow fadeIn"></div>
+              {% assign mod = forloop.index | modulo:2 %}
+              {% if mod == 0 %}
                 {% include content-left.html %}
               {% endif %}
-
-              {% if post.position == "right" %}
+  
+              {% if mod == 1 %}
                 {% include content-right.html %}
               {% endif %}
               </div>
-            {% endfor %}
+	        {% endif %}
+          {% endfor %}
 
-            {% include pagination.html %}
+          {% include pagination.html %}
 
-          </div>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
 {% include footer.html %}

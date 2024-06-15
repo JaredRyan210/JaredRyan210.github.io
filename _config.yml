@@ -22,6 +22,8 @@ url: "https://JaredRyan210.github.io" # the base hostname & protocol for your si
 github_username: 'JaredRyan210'
 linkedin_username: 'jared-ryan-8529b7258'
 
+section_title: "Projects"
+
 
 # Build settings
 markdown: kramdown
@@ -48,6 +50,7 @@ pagination:
   per_page: 10
 
   # The permalink structure for the paginated pages (this can be any level deep)
+  #permalink: '/:title/'
   permalink: '/page/:num/' # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files 
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
